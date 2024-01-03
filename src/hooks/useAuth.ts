@@ -9,7 +9,7 @@ import {
   setEmailSignupSuccess,
 } from "@/redux/slice/authSlice";
 import { signInUser } from "@/services/auth/signInUser";
-import { signUpUser } from "@/services/auth/signupUser";
+import { signUpUser } from "@/services/auth/signUpUser";
 import notify from "../utils/notifyToast";
 import axios from "axios";
 
